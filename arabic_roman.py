@@ -7,5 +7,5 @@ def arabic_roman(num):
         num %= unit
     return res
 
-for i in 1,4,9,16,25,49,81,1963,2015:
+for i in 1,4,434,0377,379,344,433,1024,2837:
     print i, arabic_roman(i)
