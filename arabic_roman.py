@@ -7,3 +7,5 @@ def arabic_to_roman(num):
         num %= unit
     return res
 
+for i in 1,4,9,16,25,49,81,1963,2015:
+    print i, arabic_to_roman(i)
