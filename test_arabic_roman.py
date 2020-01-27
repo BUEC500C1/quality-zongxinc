@@ -4,4 +4,6 @@ def test():
   assert arabic_roman(1) == 'I'
   assert arabic_roman(10000) == 'too big'
   assert arabic_roman(0) == ''
-  
+  assert arabic_roman(1999) == 'MCMXCIX'
+  assert arabic_roman(623) == 'DCXXIII'
+  assert arabic_roman(3999) == 'MMMCMXCIX'
