@@ -7,3 +7,4 @@ def test():
   assert arabic_roman(1999) == 'MCMXCIX'
   assert arabic_roman(623) == 'DCXXIII'
   assert arabic_roman(3999) == 'MMMCMXCIX'
+  assert arabic_roman(-2) == 'no negative'
