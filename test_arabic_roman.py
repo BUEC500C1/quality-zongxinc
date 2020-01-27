@@ -1,4 +1,4 @@
 import arabic_roman
 
 def test():
-  assert(1000) == 'M'
+  assert arabic_roman(1000) == 'M'
